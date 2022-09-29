@@ -1,0 +1,327 @@
+.carousel-control-prev .fa-circle-arrow-left ,  
+.carousel-control-next .fa-circle-arrow-right  {
+	color: #ECC5FB;
+	
+}
+.navbar-toggler .fa-bars-staggered,a:hover{
+color:#ecc5fb;
+}
+	
+.navbar-brand {
+font-size: 35px !important;
+background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+display: inline-block;
+}
+.nav-link,a:hover{
+	font-size: 25px !important;
+	background: linear-gradient(to right, #ff8a00 0%, #ecc5fb 20%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+
+}
+ 
+.carousel .carousel-indicators button {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color:#ECC5FB;
+	
+  }
+  
+
+.middle-container{
+	
+	background-color: #FF5B00;
+	color: #F9F9F9;
+	text-align: center;	
+	padding: 50px 150px 100px;
+	word-wrap: break-all;
+	margin: 100px 0;
+	background-clip: padding-box;
+	font-size:larger;
+	top: -224px;
+	position: relative;
+	
+	
+	
+
+}
+
+p{
+	line-height: 2;
+	
+	
+}
+
+.third-container {
+	
+	background-color: #203239;
+	color: #F9F9F9;
+	
+	text-align: right;
+	vertical-align: middle;	
+	padding: 50px 150px 120px;
+	word-wrap: break-all;
+	margin: 100px, 0;
+	background-clip: padding-box;
+	font-size:larger;
+	top: -424px;
+	position: relative
+	
+	
+}
+
+/* feature */
+
+.feature {
+	background-color: #F9F9F9;
+	color: #F9F9F9;
+	top: -325px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	vertical-align: middle;	
+	padding: 50px 150px 120px;
+	word-wrap: break-all;
+	margin: 100px, 0;
+	background-clip: padding-box;
+	font-size:larger;
+	position: relative
+	
+}
+.lap{
+	margin: 10px;
+}
+     
+.brush{
+	margin: auto;
+}
+	
+.fire{
+	margin: auto;
+}
+/* Icons */
+.fourth {
+	background-color: #D9D7F1;
+	color: #203239;
+	top: -423px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	vertical-align: middle;	
+	padding: 50px 150px 120px;
+	word-wrap: break-all;
+	margin: 100px, 0;
+	background-clip: padding-box;
+	font-size:larger;
+	position: relative
+	
+}
+.Sub{
+	font-size: medium;
+	text-align: center;
+}
+
+.par{
+	font-size: 20px;
+	text-align: center;
+	
+	
+}
+
+.head-2{
+	text-align: center;
+	
+}
+
+html {
+		font-family: "Nunito", sans-serif;
+		color:#F9F9F9;
+}
+
+html:focus-within{
+	scroll-behavior:smooth ;
+}
+
+body {
+  background-color: #ffff !important;
+
+}
+
+/* projects */
+.d-flex{
+	position: relative;
+	top: -523px;
+	
+}
+/* project.html */
+* {
+	box-sizing: border-box;
+  }
+  
+  .row > .column {
+	padding: 0 8px;
+	display: flex;
+	
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+	position: relative;
+	left: 50px;
+  }
+  
+  .column {
+	float: left;
+	width: 25%;
+	
+	
+  }
+  
+  /* The Modal (background) */
+  .modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;
+	
+  }
+  
+  /* The Close Button */
+  .close {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  .mySlides {
+	display: none;
+  }
+  
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  img {
+	margin-bottom: -4px;
+	
+  }
+  
+  .caption-container {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+  }
+  
+  .demo {
+	opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
+  
+  img.hover-shadow {
+	transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+/* footer */
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #212121;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 20px;
+  color: #F9F9F9;
+  
+}
+.footer,.fa-linkedin,.fa-github, a:link {
+color: #fefefe;	
+}

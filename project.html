@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap"  rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="icon" href=".\images\icon.ico">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar fixed-top navbar-never-expand navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><b>JDII</b></a>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa-solid fa-bars-staggered fa-2x"></span> -->
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                
+              
+              
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br><br><br>
+      
+      <div class="row">
+        <div class="column">
+          <img src="images/IMG_0159.jpg" style="width:20%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="images/Ra.jpg" style="width:20%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="images/Ras.jpg" style="width:20%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="images/Free Floating Business Card Mockup.png" style="width:20%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="images/poster.png" style="width:20%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="images/ice-cream.png" style="width:20%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="images/cone.jpg" style="width:20%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="images/cv.jpg" style="width:20%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="images/cv2.jpg" style="width:20%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+        </div>
+      </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 9</div>
+            <img src="images/IMG_0159.jpg" style=" width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 9</div>
+            <img src="images/Ra.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 9</div>
+            <img src="images/Ras.jpg" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 9</div>
+            <img src="images/Free Floating Business Card Mockup.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 9</div>
+            <img src="images/poster.png" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">6 / 9</div>
+            <img src="images/ice-cream.png" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">7 / 9</div>
+            <img src="images/cone.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">8 / 9</div>
+            <img src="images/cv.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">9 / 9</div>
+            <img src="images/cv2.jpg" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+      
+          <div class="column">
+            <img class="demo cursor" src="images/IMG_0159.jpg" style="width:100%" onclick="currentSlide(1)" alt="Portfolio">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/Ra.jpg" style="width:100%" onclick="currentSlide(2)" alt="Ramen Logo">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/Ras.jpg" style="width:100%" onclick="currentSlide(3)" alt="Ramen Sketch">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/Free Floating Business Card Mockup.png" style="width:100%" onclick="currentSlide(4)" alt="Business Card">
+
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/poster.png" style="width:100%" onclick="currentSlide(5)" alt="Flyer ">
+            <a href="https://www.freepik.com/free-psd/elegant-invitation-card-mockup-design_14413044.htm#query=holding%20flyer&position=1&from_view=search">Image by rawpixel.com</a> on Freepik
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/ice-cream.png" style="width:100%" onclick="currentSlide(6)" alt="Ice Cream Cone">
+            <a href ="https://www.freepik.com/free-psd/label-small-cone-mockup-front-view_28586473.htm#query=label%20small%20cone&position=4&from_view=search">Image by @originalmockup</a> on Freepik
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/cone.jpg" style="width:100%" onclick="currentSlide(7)" alt="Swirly Sketch">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/cv.jpg" style="width:100%" onclick="currentSlide(8)" alt="Creamy Vegan Logo Sketch">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/cv2.jpg" style="width:100%" onclick="currentSlide(9)" alt="Creamy Vegan logo">
+          </div>
+        </div>
+      </div>
+          <script>
+            function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+          </script> 
+     
+
+
+
+
+
+
+
+      <div class="footer-padding"></div>
+  <div class="footer">
+    <p>©️ Joseph Debblay II, 2022 <a href="https://www.linkedin.com/in/joseph-debblay-ii-90384423b/"><i class="fa-brands fa-linkedin fa-lg" ></i></a></i> <a href="https://github.com/JMD2020"><i class="fa-brands fa-github fa-lg"></i></a>
+        
+    </p>
+</div>
+</body>
+</html>
